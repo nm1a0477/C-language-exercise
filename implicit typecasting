@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int num_int = 5;
+    float num_float = 2.5;
+
+    float result = num_int + num_float;  // Implicit typecasting from int to float
+
+    printf("Result: %f\n", result);
+
+    return 0;
+}
