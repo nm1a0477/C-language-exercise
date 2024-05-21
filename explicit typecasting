@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float num_float = 2.5;
+    int num_int;
+
+    // Explicit typecasting from float to int
+    num_int = (int)num_float;
+
+    printf("Result: %d\n", num_int);
+
+    return 0;
+}
