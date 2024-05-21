@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a = 5, b = 3;
+    int bitwiseAnd = a & b;   // Bitwise AND
+    int bitwiseOr = a | b;    // Bitwise OR
+    int bitwiseXor = a ^ b;   // Bitwise XOR
+    int bitwiseNot = ~a;      // Bitwise NOT
+    printf("%d\n",&bitwiseAnd);
+    printf("%d\n",&bitwiseOr);
+    printf("%d\n",&bitwiseXor);
+    printf("%d\n",&bitwiseNot);
+
+    return 0;
+}
