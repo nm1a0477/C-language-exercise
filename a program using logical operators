@@ -1,0 +1,8 @@
+#include<stdio.h>;
+int main(){
+    int p = 1, q = 0;
+    printf("%d\n", p && q);  // Logical AND
+    printf("%d\n", p || q);  // Logical OR
+    printf("%d\n", !p);  // Logical NOT
+    return 0;
+}
